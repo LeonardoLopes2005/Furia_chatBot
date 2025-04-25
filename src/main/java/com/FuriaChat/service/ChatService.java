@@ -17,6 +17,10 @@ public class ChatService {
         // Lógica baseada em palavras-chave
         if (userMessage.toLowerCase().contains("novidades")) {
             botResponse = "As últimas novidades da FURIA incluem vitórias incríveis e novos torneios!";
+        }else if (userMessage.toLowerCase().contains("notícias")) {
+            return "Aqui estão as últimas notícias sobre FURIA: https://furia.gg/news";
+        } else if (userMessage.toLowerCase().contains("foto")) {
+            return "Aqui está uma imagem do time FURIA: https://furia.gg/team-photo.png";
         } else if (userMessage.toLowerCase().contains("dono da furia")) {
             botResponse = "A Furia foi fundada por Jaime Pádua, André Akkari e Cris Guedes em 2017. Os três são cofundadores e co-CEOs da organização de esports. Neymar também é presidente da FURIA e está envolvido na franquia da Kings League. ";
         }else if (userMessage.toLowerCase().contains("jogadores de cs")) {
