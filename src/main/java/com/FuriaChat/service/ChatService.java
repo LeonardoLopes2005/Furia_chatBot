@@ -37,6 +37,8 @@ public class ChatService {
             return  "Os principais jogadores de Valorant da FURIA são: khalil, havoc, pryze, heat e raafa!";
         }else if (userMessage.toLowerCase().contains("time da furia no valorant")) {
             return  "Os principais jogadores de Valorant da FURIA são: khalil, havoc, pryze, heat e raafa!";
+        }else if (userMessage.toLowerCase().contains("numero de contato com o suporte")) {
+            return  " Contato Inteligente (Whatsapp: https://wa.me/5511993404466) da FURIA";
         } else {
             return   "Olá, fã da FURIA! Como posso ajudar?";
         }
