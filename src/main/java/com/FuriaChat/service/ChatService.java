@@ -27,6 +27,8 @@ public class ChatService {
             botResponse = "Os principais jogadores de CS da FURIA são: KSCERATO, yuurih, YEKINDAR, Fallen e outros grandes talentos.";
         } else if (userMessage.toLowerCase().contains("agenda")) {
             botResponse = "A agenda da FURIA inclui torneios internacionais este mês. Fique ligado!";
+        }else if (userMessage.toLowerCase().contains("torneios")) {
+            botResponse = "Os próximos torneios serão: BLAST Premier e ESL Pro League.";
         }else if (userMessage.toLowerCase().contains("valorant")) {
             botResponse = "Os principais jogadores de Valorant da FURIA são: khalil, havoc, pryze, heat e raafa!";
         } else if (userMessage.toLowerCase().contains("jogadores de valorant")) {
