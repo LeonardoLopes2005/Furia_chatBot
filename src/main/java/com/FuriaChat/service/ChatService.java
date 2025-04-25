@@ -17,12 +17,18 @@ public class ChatService {
         // Lógica baseada em palavras-chave
         if (userMessage.toLowerCase().contains("novidades")) {
             botResponse = "As últimas novidades da FURIA incluem vitórias incríveis e novos torneios!";
-        } else if (userMessage.toLowerCase().contains("jogadores de cs")) {
+        } else if (userMessage.toLowerCase().contains("dono da furia")) {
+            botResponse = "A Furia foi fundada por Jaime Pádua, André Akkari e Cris Guedes em 2017. Os três são cofundadores e co-CEOs da organização de esports. Neymar também é presidente da FURIA e está envolvido na franquia da Kings League. ";
+        }else if (userMessage.toLowerCase().contains("jogadores de cs")) {
             botResponse = "Os principais jogadores de CS da FURIA são: KSCERATO, yuurih, YEKINDAR, Fallen e outros grandes talentos.";
-        }else if (userMessage.toLowerCase().contains("time da furia no cs")) {
+        }else if (userMessage.toLowerCase().contains("time de cs")) {
+            botResponse = "Os principais jogadores de CS da FURIA são: KSCERATO, yuurih, YEKINDAR, Fallen e outros grandes talentos.";
+        } else if (userMessage.toLowerCase().contains("cs")) {
             botResponse = "Os principais jogadores de CS da FURIA são: KSCERATO, yuurih, YEKINDAR, Fallen e outros grandes talentos.";
         } else if (userMessage.toLowerCase().contains("agenda")) {
             botResponse = "A agenda da FURIA inclui torneios internacionais este mês. Fique ligado!";
+        }else if (userMessage.toLowerCase().contains("valorant")) {
+            botResponse = "Os principais jogadores de Valorant da FURIA são: khalil, havoc, pryze, heat e raafa!";
         } else if (userMessage.toLowerCase().contains("jogadores de valorant")) {
             botResponse = "Os principais jogadores de Valorant da FURIA são: khalil, havoc, pryze, heat e raafa!";
         }else if (userMessage.toLowerCase().contains("time da furia no valorant")) {
