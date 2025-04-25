@@ -1,4 +1,5 @@
 package com.FuriaChat.menssage;
+import com.FuriaChat.menssage.ChatMessage;
 
 public class ChatMessage {
     private String userMessage;
